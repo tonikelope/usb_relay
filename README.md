@@ -17,7 +17,7 @@ and then add your user to that group with:
 
 ```sudo gpasswd -a USER group```
 
-Close and login to recharge our user's permissions.
+Exit and login to reload your user's permissions.
 
 ### Running
 
