@@ -9,7 +9,7 @@
 
 ```pip install pyserial```
 
-Note: chmod 0777 is a temporary solution. To give persistent access permissions to /dev/ttyUSB0 to our user you have to find out the gid of /dev/ttyUSB0 by doing:
+Note: chmod 0777 is a temporary solution. To give persistent access permissions to /dev/ttyUSB0 to your user you have to find out the gid of /dev/ttyUSB0 by doing:
 
 ```stat /dev/ttyUSB0```
 
