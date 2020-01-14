@@ -5,7 +5,7 @@
 
 ### Installation
 
-(Connect one end of the cable to NO input and the other to COM).
+(Connect one end of the cable to NO input and the other to COM input).
 
 ```sudo chmod 777 /dev/ttyUSB0```
 
