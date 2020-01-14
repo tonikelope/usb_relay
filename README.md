@@ -13,7 +13,7 @@ Note: chmod 0777 is a temporary solution. To give persistent access permissions 
 
 ```stat /dev/ttyUSB0```
 
-and then add our user to that group with:
+and then add your user to that group with:
 
 ```sudo gpasswd -a USER group```
 
