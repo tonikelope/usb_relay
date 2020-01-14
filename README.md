@@ -1,6 +1,8 @@
 # usb_relay
 ## Python 3.x code for controlling  a USB CH340 Relay
 
+<p align="center"><img src="usb_ch340_relay.jpg" width="40%"></p>
+
 ### Installation
 
 (Connect one end of the cable to NO input and the other to COM).
@@ -23,4 +25,4 @@ Exit and login to reload your user's permissions.
 
 Seriously?
 
-![alt text](usb_ch340_relay.jpg)
+
