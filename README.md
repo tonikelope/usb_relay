@@ -1,2 +1,4 @@
 # usb_relay
-Código Python 3.x para controlar un Relé USB CH340
+Python 3.x code for controlling  a USB CH340 Relay
+
+![alt text](relay.jpg)
