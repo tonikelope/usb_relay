@@ -1,4 +1,4 @@
-# USB CH340 Relay
+# USB CH340 relay
 <p align="center"><img src="usb_ch340_relay.jpg" width="40%"></p>
 (Connect one end of the cable to NO port and the other to COM port).
 
