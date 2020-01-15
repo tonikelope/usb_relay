@@ -16,12 +16,11 @@ and then add your user to that group with:
 
 Exit and login to reload your user's permissions.
 
-### Running
-
 ```chmod +x ./relay_on.sh```
 
 ```chmod +x ./relay_off.sh```
 
+### Running
 ON -> ```./relay_on.sh```
 
 OFF -> ```./relay_off.sh```
