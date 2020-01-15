@@ -1,7 +1,7 @@
 # usb_relay USB CH340 Relay
-## Linux (Python and pip required)
-
 <p align="center"><img src="usb_ch340_relay.jpg" width="40%"></p>
+
+## Linux (Python and pip required)
 
 ### Installation
 
@@ -29,4 +29,4 @@ OFF -> ```./relay_off.py```
 
 ## Windows (Powershell)
 
-Run Powershell scripts
+Just run Powershell scripts.
