@@ -3,7 +3,6 @@
 (Connect one end of the cable to NO port and the other to COM port).
 
 ## Linux
-### Installation
 ```sudo chmod 777 /dev/ttyUSB0```
 
 Note: chmod 0777 is a temporary solution. To give persistent access permissions to /dev/ttyUSB0 to your user you have to find out the gid of /dev/ttyUSB0 by doing:
@@ -20,10 +19,10 @@ Exit and login to reload your user's permissions.
 
 ```chmod +x ./relay_off.sh```
 
-### Running
 ON -> ```./relay_on.sh```
 
 OFF -> ```./relay_off.sh```
+
 
 ## Windows (Powershell)
 
