@@ -1,11 +1,11 @@
 # usb_relay
-## Python 3.x code for controlling  a USB CH340 Relay
+## Python code for controlling a USB CH340 Relay (Linux)
 
 <p align="center"><img src="usb_ch340_relay.jpg" width="40%"></p>
 
 ### Installation
 
-(Connect one end of the cable to NO input and the other to COM input).
+(Connect one end of the cable to NO port and the other to COM port).
 
 ```sudo chmod 777 /dev/ttyUSB0```
 
