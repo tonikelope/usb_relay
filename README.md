@@ -1,5 +1,5 @@
-# usb_relay
-## Python code for controlling a USB CH340 Relay (Linux)
+# usb_relay USB CH340 Relay
+## Linux (Python and pip required)
 
 <p align="center"><img src="usb_ch340_relay.jpg" width="40%"></p>
 
@@ -23,6 +23,9 @@ Exit and login to reload your user's permissions.
 
 ### Running
 
-Seriously?
+ON -> ```./relay_on.py```
+OFF -> ```./relay_off.py```
 
+## Windows (Powershell)
 
+Run Powershell scripts
