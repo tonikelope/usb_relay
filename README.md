@@ -22,6 +22,6 @@ ON -> ```./relay_on.sh```
 OFF -> ```./relay_off.sh```
 
 
-## Windows (Powershell)
+## Windows
 
 Just run Powershell scripts.
