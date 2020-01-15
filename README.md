@@ -24,6 +24,7 @@ Exit and login to reload your user's permissions.
 ### Running
 
 ON -> ```./relay_on.py```
+
 OFF -> ```./relay_off.py```
 
 ## Windows (Powershell)
