@@ -3,25 +3,25 @@
 (Connect one end of the cable to NO port and the other to COM port).
 
 ## Linux
-1. Plug it and check if it's recognized: ```lsusb```
+1. **Plug it** and check if it's recognized: ```lsusb```
 
-2. Get /dev/ttyUSBx path: ```dmesg | grep tty```
+2. Get **/dev/ttyUSBx** path: ```dmesg | grep tty```
 
-3. To give persistent access permissions to (for example) /dev/ttyUSB0 to your user you have to find out the gid of /dev/ttyUSB0 by doing: ```stat /dev/ttyUSB0```
+3. **Write permissions:**
 
-and then add your user to that group with: ```sudo gpasswd -a USER group```
+   To give persistent access permissions to (for example) /dev/ttyUSB0 to your user you have to find out the gid of /dev/ttyUSB0 by doing: ```stat /dev/ttyUSB0``` and then add your user to that group with: ```sudo gpasswd -a USER group```
 
-(Exit and login to reload your user's permissions).
+   (Exit and login to reload your user's permissions).
 
-4.
+4. **Run:**
 
-```chmod +x ./relay_on.sh```
+   ```chmod +x ./relay_on.sh```
 
-```chmod +x ./relay_off.sh```
+   ```chmod +x ./relay_off.sh```
 
-ON -> ```./relay_on.sh```
+   ON -> ```./relay_on.sh```
 
-OFF -> ```./relay_off.sh```
+   OFF -> ```./relay_off.sh```
 
 
 ## Windows
