@@ -3,7 +3,11 @@
 (Connect one end of the cable to NO port and the other to COM port).
 
 ## Linux
-To give persistent access permissions to /dev/ttyUSB0 to your user you have to find out the gid of /dev/ttyUSB0 by doing: ```stat /dev/ttyUSB0```
+Plug it and check if it's recognized: ```lsusb```
+
+Get /dev/ttyUSBx path: ```dmesg | grep tty```
+
+To give persistent access permissions to (for example) /dev/ttyUSB0 to your user you have to find out the gid of /dev/ttyUSB0 by doing: ```stat /dev/ttyUSB0```
 
 and then add your user to that group with: ```sudo gpasswd -a USER group```
 
